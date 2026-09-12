@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="%sveltekit.assets%/favicon.svg" />
+		<link rel="stylesheet" href="https://use.typekit.net/aba0ebl.css" />
+		<meta name="viewport" content="width=device-width" />
+		<script>
+			// Cap canvas resolution on low-end/mobile devices: PixiJS reads
+			// window.devicePixelRatio, and rendering at DPR 3 is ~4x the pixels of 1.5.
+			(function () {
+				try {
+					var isMobile = /Android|iPhone|iPad|Mobile/i.test(navigator.userAgent);
+					var lowEnd =
+						(navigator.deviceMemory && navigator.deviceMemory <= 3) ||
+						(navigator.hardwareConcurrency && navigator.hardwareConcurrency <= 4);
+					var limit = lowEnd ? 1.25 : isMobile ? 1.75 : 2;
+					if ((window.devicePixelRatio || 1) > limit) {
+						Object.defineProperty(window, 'devicePixelRatio', {
+							get: function () {
+								return limit;
+							},
+							configurable: true,
+						});
+					}
+				} catch (e) {
+					/* keep native DPR */
+				}
+			})();
+		</script>
+		%sveltekit.head%
+	</head>
+	<body style="margin: 0; padding: 0; overflow: hidden; background-color: black">
+		<div>%sveltekit.body%</div>
+	</body>
+</html>

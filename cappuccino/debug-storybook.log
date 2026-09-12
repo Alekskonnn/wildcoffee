@@ -1,0 +1,28 @@
+[14:19:47.422] [INFO] storybook v10.4.6
+[14:19:47.750] [DEBUG] Command "yarn.cmd" not found, trying next variation...
+[14:19:47.794] [DEBUG] Command "yarn.exe" not found, trying next variation...
+[14:19:47.841] [DEBUG] Command "yarn.ps1" not found, trying next variation...
+[14:19:48.313] [DEBUG] Getting package.json info for C:/Users/belal/Documents/ChatGPT/Wild_Coffee/apps/cappuccino/package.json...
+[14:19:49.124] [WARN] Could not resolve addon "@storybook/addon-docs", skipping. Is it installed?
+[14:19:50.546] [WARN] Could not resolve addon "@storybook/addon-docs", skipping. Is it installed?
+[14:19:50.599] [DEBUG] Serving static files from [36mapps/cappuccino/static[39m at [36m/[39m
+[14:19:50.602] [INFO] Starting...
+[14:19:50.654] [WARN] No story files found for the specified pattern: [34msrc\**\*.mdx[39m
+[14:19:50.668] [WARN] CSF Parsing error: Expected 'ObjectExpression' but found 'Identifier' instead in 'Identifier'.
+[14:19:50.954] [ERROR] [38;2;241;97;97mError: Build failed with 2 errors:
+error: Cannot read directory "../../../../..": Access is denied.
+error: Could not resolve "C:\\Users\\belal\\Documents\\ChatGPT\\Wild_Coffee\\apps\\cappuccino\\node_modules\\.cache\\storybook\\10.4.6\\6d8dcbef3bf52b9693f6984dee4041b1069136cec0eff8e8242332bdff620a08\\sb-manager\\storybook-core-server-presets-0\\common-manager-bundle.js"[39m
+    at failureErrorWithLog (C:\Users\belal\Documents\ChatGPT\Wild_Coffee\node_modules\.pnpm\esbuild@0.25.5\node_modules\esbuild\lib\main.js:1463:15)
+    at C:\Users\belal\Documents\ChatGPT\Wild_Coffee\node_modules\.pnpm\esbuild@0.25.5\node_modules\esbuild\lib\main.js:924:25
+    at runOnEndCallbacks (C:\Users\belal\Documents\ChatGPT\Wild_Coffee\node_modules\.pnpm\esbuild@0.25.5\node_modules\esbuild\lib\main.js:1303:45)
+    at buildResponseToResult (C:\Users\belal\Documents\ChatGPT\Wild_Coffee\node_modules\.pnpm\esbuild@0.25.5\node_modules\esbuild\lib\main.js:922:7)
+    at C:\Users\belal\Documents\ChatGPT\Wild_Coffee\node_modules\.pnpm\esbuild@0.25.5\node_modules\esbuild\lib\main.js:949:16
+    at responseCallbacks.<computed> (C:\Users\belal\Documents\ChatGPT\Wild_Coffee\node_modules\.pnpm\esbuild@0.25.5\node_modules\esbuild\lib\main.js:601:9)
+    at handleIncomingPacket (C:\Users\belal\Documents\ChatGPT\Wild_Coffee\node_modules\.pnpm\esbuild@0.25.5\node_modules\esbuild\lib\main.js:656:12)
+    at Socket.readFromStdout (C:\Users\belal\Documents\ChatGPT\Wild_Coffee\node_modules\.pnpm\esbuild@0.25.5\node_modules\esbuild\lib\main.js:579:7)
+    at Socket.emit (node:events:509:28)
+    at addChunk (node:internal/streams/readable:563:12)
+[14:19:50.956] [WARN] Broken build, fix the error above.
+You may need to refresh the browser.
+[14:19:50.959] [WARN] Could not resolve addon "@storybook/addon-docs", skipping. Is it installed?
+[14:19:51.438] [WARN] CSF Parsing error: Expected 'ObjectExpression' but found 'Identifier' instead in 'Identifier'.

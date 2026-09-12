@@ -1,0 +1,1943 @@
+[WARN] The "pnpm" field in package.json is no longer read by pnpm. The following keys were ignored: "pnpm.onlyBuiltDependencies". See https://pnpm.io/settings for the new home of each setting.
+$ cross-env PUBLIC_CHROMATIC=true storybook dev -p 6010
+
+[90mT[39m  storybook v10.4.6
+[90m|[39m
+[33m![39m  Could not resolve addon "@storybook/addon-docs", skipping. Is it
+[90m|[39m  installed?
+[90m|[39m
+[33m![39m  Could not resolve addon "@storybook/addon-docs", skipping. Is it
+[90m|[39m  installed?
+[90m|[39m
+[34m•[39m  Starting...
+[90m|[39m
+[33m![39m  No story files found for the specified pattern: [34msrc\**\*.mdx[39m
+[90m|[39m
+[33m![39m  CSF Parsing error: Expected 'ObjectExpression' but found 'Identifier'
+[90m|[39m  instead in 'Identifier'.
+[90m|[39m
+[33m![39m  CSF Parsing error: Expected 'ObjectExpression' but found 'Identifier'
+[90m|[39m  instead in 'Identifier'.
+[90m|[39m  [43mVite[49m Re-optimizing dependencies because lockfile has changed
+[90m|[39m
+[33m![39m  [43mVite[49m Failed to resolve dependency: [36mstorybook/internal/preview/runtime[39m,
+[90m|[39m  present in client 'optimizeDeps.include'
+[90m|[39m
+[33m![39m  [43mVite[49m Failed to resolve dependency:
+[90m|[39m  [36m@storybook/sveltekit/internal/mocks/app/forms[39m, present in client
+[90m|[39m  'optimizeDeps.include'
+[90m|[39m
+[33m![39m  [43mVite[49m Failed to resolve dependency:
+[90m|[39m  [36m@storybook/sveltekit/internal/mocks/app/navigation[39m, present in client
+[90m|[39m  'optimizeDeps.include'
+[90m|[39m
+[33m![39m  [43mVite[49m Failed to resolve dependency:
+[90m|[39m  [36m@storybook/sveltekit/internal/mocks/app/stores[39m, present in client
+[90m|[39m  'optimizeDeps.include'
+[90m|[39m
+[33m![39m  [43mVite[49m Failed to resolve dependency:
+[90m|[39m  [36m@storybook/sveltekit/internal/mocks/app/state.svelte.js[39m, present in
+[90m|[39m  client 'optimizeDeps.include'
+| [38;2;255;71;133m+[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m+[39m
+| [38;2;255;71;133m|[39m   Storybook ready!                                                         [38;2;255;71;133m|[39m
+| [38;2;255;71;133m|[39m                                                                            [38;2;255;71;133m|[39m
+| [38;2;255;71;133m|[39m   - Local:                http://localhost:6010/                           [38;2;255;71;133m|[39m
+| [38;2;255;71;133m|[39m   - On your network:      http://192.168.1.39:6010/                        [38;2;255;71;133m|[39m
+| [38;2;255;71;133m|[39m                                                                            [38;2;255;71;133m|[39m
+| [38;2;255;71;133m|[39m                                                                            [38;2;255;71;133m|[39m
+| [38;2;255;71;133m|[39m   [38;2;243;173;56mA new version ([1m10.6.0[22m) is available![39m                                     [38;2;255;71;133m|[39m
+| [38;2;255;71;133m|[39m                                                                            [38;2;255;71;133m|[39m
+| [38;2;255;71;133m|[39m   [90mUpgrade now:[39m [38;2;162;224;94mnpx storybook@latest upgrade[39m                                [38;2;255;71;133m|[39m
+| [38;2;255;71;133m|[39m                                                                            [38;2;255;71;133m|[39m
+| [38;2;255;71;133m|[39m   [90mRead full changelog:[39m                                                     [38;2;255;71;133m|[39m
+| [38;2;255;71;133m|[39m   [90m[4mhttps://github.com/storybookjs/storybook/blob/main/CHANGELOG.md[24m[39m          [38;2;255;71;133m|[39m
+| [38;2;255;71;133m+[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m-[39m[38;2;255;71;133m+[39m
+[90m|[39m
+[34m•[39m  [4m1.51 s[24m for manager and [4m3.25 s[24m for preview
+[90m|[39m
+[33m![39m  CSF Parsing error: Expected 'ObjectExpression' but found 'Identifier'
+[90m|[39m  instead in 'Identifier'.
+[90m|[39m
+[31mx[39m  Change detection failed: git rev-parse --show-toplevel failed: fatal:
+[90m|[39m  detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  Aleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  ALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  git config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+
+[90m|[39m  fatal: detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  \tAleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  \tALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  \tgit config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m
+[33m![39m  Could not resolve addon "@storybook/addon-docs", skipping. Is it
+[90m|[39m  installed?
+[90m|[39m
+[33m![39m  Could not resolve addon "@storybook/addon-docs", skipping. Is it
+[90m|[39m  installed?
+[90m|[39m
+[33m![39m  Could not resolve addon "@storybook/addon-docs", skipping. Is it
+[90m|[39m  installed?
+[90m|[39m
+[31mx[39m  [43mVite[49m [31mInternal server error: Failed to resolve import[39m
+[90m|[39m  [31m"storybook/internal/preview/runtime" from[39m
+[90m|[39m  [31m" virtual:/@storybook/builder-vite/vite-app.js". Does the file exist?[39m
+[90m|[39m  Plugin: [35mvite:import-analysis[39m
+[90m|[39m  File: [36m virtual:/@storybook/builder-vite/vite-app.js[39m:1:24
+[90m|[39m  [33m1  |  import { setup } from 'storybook/internal/preview/runtime';
+[90m|[39m  |                         ^
+[90m|[39m  2  |
+[90m|[39m  3  |  import 'virtual:/@storybook/builder-vite/setup-addons.js';[39m
+[90m|[39m  at TransformPluginContext._formatLog
+[90m|[39m  (file:///C:/Users/belal/Documents/ChatGPT/Wild_Coffee/node_modules/.pnpm/vite@6.2.0_@types+node@26.5_137a898bb7efb1fef1c89823f588683a/node_modules/vite/dist/node/chunks/dep-ByPKlqZ5.js:47835:41)
+[90m|[39m  at TransformPluginContext.error
+[90m|[39m  (file:///C:/Users/belal/Documents/ChatGPT/Wild_Coffee/node_modules/.pnpm/vite@6.2.0_@types+node@26.5_137a898bb7efb1fef1c89823f588683a/node_modules/vite/dist/node/chunks/dep-ByPKlqZ5.js:47832:16)
+[90m|[39m  at normalizeUrl
+[90m|[39m  (file:///C:/Users/belal/Documents/ChatGPT/Wild_Coffee/node_modules/.pnpm/vite@6.2.0_@types+node@26.5_137a898bb7efb1fef1c89823f588683a/node_modules/vite/dist/node/chunks/dep-ByPKlqZ5.js:45968:23)
+[90m|[39m  at async
+[90m|[39m  file:///C:/Users/belal/Documents/ChatGPT/Wild_Coffee/node_modules/.pnpm/vite@6.2.0_@types+node@26.5_137a898bb7efb1fef1c89823f588683a/node_modules/vite/dist/node/chunks/dep-ByPKlqZ5.js:46087:37
+[90m|[39m  at async Promise.all (index 0)
+[90m|[39m  at async TransformPluginContext.transform
+[90m|[39m  (file:///C:/Users/belal/Documents/ChatGPT/Wild_Coffee/node_modules/.pnpm/vite@6.2.0_@types+node@26.5_137a898bb7efb1fef1c89823f588683a/node_modules/vite/dist/node/chunks/dep-ByPKlqZ5.js:46014:7)
+[90m|[39m  at async EnvironmentPluginContainer.transform
+[90m|[39m  (file:///C:/Users/belal/Documents/ChatGPT/Wild_Coffee/node_modules/.pnpm/vite@6.2.0_@types+node@26.5_137a898bb7efb1fef1c89823f588683a/node_modules/vite/dist/node/chunks/dep-ByPKlqZ5.js:47630:18)
+[90m|[39m  at async loadAndTransform
+[90m|[39m  (file:///C:/Users/belal/Documents/ChatGPT/Wild_Coffee/node_modules/.pnpm/vite@6.2.0_@types+node@26.5_137a898bb7efb1fef1c89823f588683a/node_modules/vite/dist/node/chunks/dep-ByPKlqZ5.js:41318:27)
+[90m|[39m
+[33m![39m  CSF Parsing error: Expected 'ObjectExpression' but found 'Identifier'
+[90m|[39m  instead in 'Identifier'.
+[90m|[39m  [43mVite[49m [32m✨ new dependencies optimized: [33mstorybook/viewport[32m[39m
+[90m|[39m  [43mVite[49m [32m✨ optimized dependencies changed. reloading[39m
+[90m|[39m
+[31mx[39m  [43mVite[49m [31mInternal server error: Failed to resolve import[39m
+[90m|[39m  [31m"storybook/internal/preview/runtime" from[39m
+[90m|[39m  [31m" virtual:/@storybook/builder-vite/vite-app.js". Does the file exist?[39m
+[90m|[39m  Plugin: [35mvite:import-analysis[39m
+[90m|[39m  File: [36m virtual:/@storybook/builder-vite/vite-app.js[39m:1:24
+[90m|[39m  [33m1  |  import { setup } from 'storybook/internal/preview/runtime';
+[90m|[39m  |                         ^
+[90m|[39m  2  |
+[90m|[39m  3  |  import 'virtual:/@storybook/builder-vite/setup-addons.js';[39m
+[90m|[39m  at TransformPluginContext._formatLog
+[90m|[39m  (file:///C:/Users/belal/Documents/ChatGPT/Wild_Coffee/node_modules/.pnpm/vite@6.2.0_@types+node@26.5_137a898bb7efb1fef1c89823f588683a/node_modules/vite/dist/node/chunks/dep-ByPKlqZ5.js:47835:41)
+[90m|[39m  at TransformPluginContext.error
+[90m|[39m  (file:///C:/Users/belal/Documents/ChatGPT/Wild_Coffee/node_modules/.pnpm/vite@6.2.0_@types+node@26.5_137a898bb7efb1fef1c89823f588683a/node_modules/vite/dist/node/chunks/dep-ByPKlqZ5.js:47832:16)
+[90m|[39m  at normalizeUrl
+[90m|[39m  (file:///C:/Users/belal/Documents/ChatGPT/Wild_Coffee/node_modules/.pnpm/vite@6.2.0_@types+node@26.5_137a898bb7efb1fef1c89823f588683a/node_modules/vite/dist/node/chunks/dep-ByPKlqZ5.js:45968:23)
+[90m|[39m  at async
+[90m|[39m  file:///C:/Users/belal/Documents/ChatGPT/Wild_Coffee/node_modules/.pnpm/vite@6.2.0_@types+node@26.5_137a898bb7efb1fef1c89823f588683a/node_modules/vite/dist/node/chunks/dep-ByPKlqZ5.js:46087:37
+[90m|[39m  at async Promise.all (index 0)
+[90m|[39m  at async TransformPluginContext.transform
+[90m|[39m  (file:///C:/Users/belal/Documents/ChatGPT/Wild_Coffee/node_modules/.pnpm/vite@6.2.0_@types+node@26.5_137a898bb7efb1fef1c89823f588683a/node_modules/vite/dist/node/chunks/dep-ByPKlqZ5.js:46014:7)
+[90m|[39m  at async EnvironmentPluginContainer.transform
+[90m|[39m  (file:///C:/Users/belal/Documents/ChatGPT/Wild_Coffee/node_modules/.pnpm/vite@6.2.0_@types+node@26.5_137a898bb7efb1fef1c89823f588683a/node_modules/vite/dist/node/chunks/dep-ByPKlqZ5.js:47630:18)
+[90m|[39m  at async loadAndTransform
+[90m|[39m  (file:///C:/Users/belal/Documents/ChatGPT/Wild_Coffee/node_modules/.pnpm/vite@6.2.0_@types+node@26.5_137a898bb7efb1fef1c89823f588683a/node_modules/vite/dist/node/chunks/dep-ByPKlqZ5.js:41318:27)
+[90m|[39m  at async viteTransformMiddleware
+[90m|[39m  (file:///C:/Users/belal/Documents/ChatGPT/Wild_Coffee/node_modules/.pnpm/vite@6.2.0_@types+node@26.5_137a898bb7efb1fef1c89823f588683a/node_modules/vite/dist/node/chunks/dep-ByPKlqZ5.js:42781:24)
+[90m|[39m
+[33m![39m  CSF Parsing error: Expected 'ObjectExpression' but found 'Identifier'
+[90m|[39m  instead in 'Identifier'.
+[90m|[39m
+[31mx[39m  [43mVite[49m [31mInternal server error: Failed to resolve import[39m
+[90m|[39m  [31m"storybook/internal/preview/runtime" from[39m
+[90m|[39m  [31m" virtual:/@storybook/builder-vite/vite-app.js". Does the file exist?[39m
+[90m|[39m  Plugin: [35mvite:import-analysis[39m
+[90m|[39m  File: [36m virtual:/@storybook/builder-vite/vite-app.js[39m:1:24
+[90m|[39m  [33m1  |  import { setup } from 'storybook/internal/preview/runtime';
+[90m|[39m  |                         ^
+[90m|[39m  2  |
+[90m|[39m  3  |  import 'virtual:/@storybook/builder-vite/setup-addons.js';[39m
+[90m|[39m  at TransformPluginContext._formatLog
+[90m|[39m  (file:///C:/Users/belal/Documents/ChatGPT/Wild_Coffee/node_modules/.pnpm/vite@6.2.0_@types+node@26.5_137a898bb7efb1fef1c89823f588683a/node_modules/vite/dist/node/chunks/dep-ByPKlqZ5.js:47835:41)
+[90m|[39m  at TransformPluginContext.error
+[90m|[39m  (file:///C:/Users/belal/Documents/ChatGPT/Wild_Coffee/node_modules/.pnpm/vite@6.2.0_@types+node@26.5_137a898bb7efb1fef1c89823f588683a/node_modules/vite/dist/node/chunks/dep-ByPKlqZ5.js:47832:16)
+[90m|[39m  at normalizeUrl
+[90m|[39m  (file:///C:/Users/belal/Documents/ChatGPT/Wild_Coffee/node_modules/.pnpm/vite@6.2.0_@types+node@26.5_137a898bb7efb1fef1c89823f588683a/node_modules/vite/dist/node/chunks/dep-ByPKlqZ5.js:45968:23)
+[90m|[39m  at async
+[90m|[39m  file:///C:/Users/belal/Documents/ChatGPT/Wild_Coffee/node_modules/.pnpm/vite@6.2.0_@types+node@26.5_137a898bb7efb1fef1c89823f588683a/node_modules/vite/dist/node/chunks/dep-ByPKlqZ5.js:46087:37
+[90m|[39m  at async Promise.all (index 0)
+[90m|[39m  at async TransformPluginContext.transform
+[90m|[39m  (file:///C:/Users/belal/Documents/ChatGPT/Wild_Coffee/node_modules/.pnpm/vite@6.2.0_@types+node@26.5_137a898bb7efb1fef1c89823f588683a/node_modules/vite/dist/node/chunks/dep-ByPKlqZ5.js:46014:7)
+[90m|[39m  at async EnvironmentPluginContainer.transform
+[90m|[39m  (file:///C:/Users/belal/Documents/ChatGPT/Wild_Coffee/node_modules/.pnpm/vite@6.2.0_@types+node@26.5_137a898bb7efb1fef1c89823f588683a/node_modules/vite/dist/node/chunks/dep-ByPKlqZ5.js:47630:18)
+[90m|[39m  at async loadAndTransform
+[90m|[39m  (file:///C:/Users/belal/Documents/ChatGPT/Wild_Coffee/node_modules/.pnpm/vite@6.2.0_@types+node@26.5_137a898bb7efb1fef1c89823f588683a/node_modules/vite/dist/node/chunks/dep-ByPKlqZ5.js:41318:27)
+[90m|[39m  at async viteTransformMiddleware
+[90m|[39m  (file:///C:/Users/belal/Documents/ChatGPT/Wild_Coffee/node_modules/.pnpm/vite@6.2.0_@types+node@26.5_137a898bb7efb1fef1c89823f588683a/node_modules/vite/dist/node/chunks/dep-ByPKlqZ5.js:42781:24)
+[90m|[39m  [43mVite[49m [32mpage reload[39m
+[90m|[39m  [32m[39m[2mstatic/assets/spines/foregroundAnimation/bg-desktop.original.png[22m
+[90m|[39m
+[31mx[39m  Change detection failed: git rev-parse --show-toplevel failed: fatal:
+[90m|[39m  detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  Aleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  ALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  git config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+
+[90m|[39m  fatal: detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  \tAleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  \tALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  \tgit config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m
+[31mx[39m  Change detection failed: git rev-parse --show-toplevel failed: fatal:
+[90m|[39m  detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  Aleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  ALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  git config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+
+[90m|[39m  fatal: detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  \tAleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  \tALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  \tgit config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m
+[31mx[39m  Change detection failed: git rev-parse --show-toplevel failed: fatal:
+[90m|[39m  detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  Aleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  ALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  git config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+
+[90m|[39m  fatal: detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  \tAleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  \tALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  \tgit config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m
+[31mx[39m  Change detection failed: git rev-parse --show-toplevel failed: fatal:
+[90m|[39m  detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  Aleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  ALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  git config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+
+[90m|[39m  fatal: detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  \tAleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  \tALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  \tgit config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m
+[31mx[39m  Change detection failed: git rev-parse --show-toplevel failed: fatal:
+[90m|[39m  detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  Aleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  ALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  git config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+
+[90m|[39m  fatal: detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  \tAleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  \tALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  \tgit config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m
+[31mx[39m  Change detection failed: git rev-parse --show-toplevel failed: fatal:
+[90m|[39m  detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  Aleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  ALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  git config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+
+[90m|[39m  fatal: detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  \tAleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  \tALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  \tgit config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m
+[31mx[39m  Change detection failed: git rev-parse --show-toplevel failed: fatal:
+[90m|[39m  detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  Aleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  ALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  git config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+
+[90m|[39m  fatal: detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  \tAleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  \tALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  \tgit config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m
+[31mx[39m  Change detection failed: git rev-parse --show-toplevel failed: fatal:
+[90m|[39m  detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  Aleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  ALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  git config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+
+[90m|[39m  fatal: detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  \tAleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  \tALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  \tgit config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m
+[31mx[39m  Change detection failed: git rev-parse --show-toplevel failed: fatal:
+[90m|[39m  detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  Aleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  ALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  git config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+
+[90m|[39m  fatal: detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  \tAleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  \tALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  \tgit config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m
+[31mx[39m  Change detection failed: git rev-parse --show-toplevel failed: fatal:
+[90m|[39m  detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  Aleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  ALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  git config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+
+[90m|[39m  fatal: detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  \tAleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  \tALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  \tgit config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m
+[31mx[39m  Change detection failed: git rev-parse --show-toplevel failed: fatal:
+[90m|[39m  detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  Aleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  ALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  git config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+
+[90m|[39m  fatal: detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  \tAleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  \tALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  \tgit config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m
+[31mx[39m  Change detection failed: git rev-parse --show-toplevel failed: fatal:
+[90m|[39m  detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  Aleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  ALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  git config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+
+[90m|[39m  fatal: detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  \tAleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  \tALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  \tgit config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m
+[31mx[39m  Change detection failed: git rev-parse --show-toplevel failed: fatal:
+[90m|[39m  detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  Aleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  ALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  git config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+
+[90m|[39m  fatal: detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  \tAleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  \tALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  \tgit config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m
+[31mx[39m  Change detection failed: git rev-parse --show-toplevel failed: fatal:
+[90m|[39m  detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  Aleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  ALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  git config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+
+[90m|[39m  fatal: detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  \tAleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  \tALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  \tgit config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m
+[31mx[39m  Change detection failed: git rev-parse --show-toplevel failed: fatal:
+[90m|[39m  detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  Aleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  ALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  git config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+
+[90m|[39m  fatal: detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  \tAleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  \tALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  \tgit config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m
+[31mx[39m  Change detection failed: git rev-parse --show-toplevel failed: fatal:
+[90m|[39m  detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  Aleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  ALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  git config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+
+[90m|[39m  fatal: detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  \tAleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  \tALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  \tgit config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m
+[31mx[39m  Change detection failed: git rev-parse --show-toplevel failed: fatal:
+[90m|[39m  detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  Aleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  ALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  git config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+
+[90m|[39m  fatal: detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  \tAleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  \tALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  \tgit config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m
+[31mx[39m  Change detection failed: git rev-parse --show-toplevel failed: fatal:
+[90m|[39m  detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  Aleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  ALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  git config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+
+[90m|[39m  fatal: detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  \tAleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  \tALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  \tgit config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m
+[31mx[39m  Change detection failed: git rev-parse --show-toplevel failed: fatal:
+[90m|[39m  detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  Aleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  ALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  git config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+
+[90m|[39m  fatal: detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  \tAleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  \tALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  \tgit config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m
+[31mx[39m  Change detection failed: git rev-parse --show-toplevel failed: fatal:
+[90m|[39m  detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  Aleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  ALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  git config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+
+[90m|[39m  fatal: detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  \tAleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  \tALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  \tgit config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m
+[31mx[39m  Change detection failed: git rev-parse --show-toplevel failed: fatal:
+[90m|[39m  detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  Aleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  ALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  git config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+
+[90m|[39m  fatal: detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  \tAleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  \tALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  \tgit config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m
+[31mx[39m  Change detection failed: git rev-parse --show-toplevel failed: fatal:
+[90m|[39m  detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  Aleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  ALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  git config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+
+[90m|[39m  fatal: detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  \tAleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  \tALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  \tgit config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m
+[31mx[39m  Change detection failed: git rev-parse --show-toplevel failed: fatal:
+[90m|[39m  detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  Aleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  ALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  git config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+
+[90m|[39m  fatal: detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  \tAleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  \tALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  \tgit config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m
+[31mx[39m  Change detection failed: git rev-parse --show-toplevel failed: fatal:
+[90m|[39m  detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  Aleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  ALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  git config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+
+[90m|[39m  fatal: detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  \tAleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  \tALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  \tgit config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m
+[31mx[39m  Change detection failed: git rev-parse --show-toplevel failed: fatal:
+[90m|[39m  detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  Aleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  ALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  git config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+
+[90m|[39m  fatal: detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  \tAleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  \tALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  \tgit config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m
+[31mx[39m  Change detection failed: git rev-parse --show-toplevel failed: fatal:
+[90m|[39m  detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  Aleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  ALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  git config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+
+[90m|[39m  fatal: detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  \tAleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  \tALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  \tgit config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m
+[31mx[39m  Change detection failed: git rev-parse --show-toplevel failed: fatal:
+[90m|[39m  detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  Aleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  ALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  git config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+
+[90m|[39m  fatal: detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  \tAleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  \tALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  \tgit config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m
+[31mx[39m  Change detection failed: git rev-parse --show-toplevel failed: fatal:
+[90m|[39m  detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  Aleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  ALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  git config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+
+[90m|[39m  fatal: detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  \tAleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  \tALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  \tgit config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m
+[31mx[39m  Change detection failed: git rev-parse --show-toplevel failed: fatal:
+[90m|[39m  detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  Aleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  ALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  git config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+
+[90m|[39m  fatal: detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  \tAleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  \tALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  \tgit config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m
+[31mx[39m  Change detection failed: git rev-parse --show-toplevel failed: fatal:
+[90m|[39m  detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  Aleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  ALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  git config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+
+[90m|[39m  fatal: detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  \tAleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  \tALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  \tgit config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m
+[31mx[39m  Change detection failed: git rev-parse --show-toplevel failed: fatal:
+[90m|[39m  detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  Aleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  ALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  git config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+
+[90m|[39m  fatal: detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  \tAleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  \tALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  \tgit config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m
+[31mx[39m  Change detection failed: git rev-parse --show-toplevel failed: fatal:
+[90m|[39m  detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  Aleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  ALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  git config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+
+[90m|[39m  fatal: detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  \tAleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  \tALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  \tgit config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m
+[31mx[39m  Change detection failed: git rev-parse --show-toplevel failed: fatal:
+[90m|[39m  detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  Aleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  ALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  git config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+
+[90m|[39m  fatal: detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  \tAleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  \tALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  \tgit config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m
+[31mx[39m  Change detection failed: git rev-parse --show-toplevel failed: fatal:
+[90m|[39m  detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  Aleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  ALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  git config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+
+[90m|[39m  fatal: detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  \tAleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  \tALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  \tgit config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m
+[31mx[39m  Change detection failed: git rev-parse --show-toplevel failed: fatal:
+[90m|[39m  detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  Aleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  ALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  git config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+
+[90m|[39m  fatal: detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  \tAleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  \tALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  \tgit config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m
+[31mx[39m  Change detection failed: git rev-parse --show-toplevel failed: fatal:
+[90m|[39m  detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  Aleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  ALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  git config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+
+[90m|[39m  fatal: detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  \tAleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  \tALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  \tgit config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m
+[31mx[39m  Change detection failed: git rev-parse --show-toplevel failed: fatal:
+[90m|[39m  detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  Aleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  ALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  git config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+
+[90m|[39m  fatal: detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  \tAleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  \tALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  \tgit config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m
+[31mx[39m  Change detection failed: git rev-parse --show-toplevel failed: fatal:
+[90m|[39m  detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  Aleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  ALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  git config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+
+[90m|[39m  fatal: detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  \tAleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  \tALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  \tgit config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m
+[31mx[39m  Change detection failed: git rev-parse --show-toplevel failed: fatal:
+[90m|[39m  detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  Aleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  ALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  git config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+
+[90m|[39m  fatal: detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  \tAleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  \tALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  \tgit config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m
+[31mx[39m  Change detection failed: git rev-parse --show-toplevel failed: fatal:
+[90m|[39m  detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  Aleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  ALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  git config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+
+[90m|[39m  fatal: detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  \tAleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  \tALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  \tgit config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m
+[31mx[39m  Change detection failed: git rev-parse --show-toplevel failed: fatal:
+[90m|[39m  detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  Aleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  ALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  git config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+
+[90m|[39m  fatal: detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  \tAleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  \tALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  \tgit config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m
+[31mx[39m  Change detection failed: git rev-parse --show-toplevel failed: fatal:
+[90m|[39m  detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  Aleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  ALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  git config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+
+[90m|[39m  fatal: detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  \tAleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  \tALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  \tgit config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m
+[31mx[39m  Change detection failed: git rev-parse --show-toplevel failed: fatal:
+[90m|[39m  detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  Aleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  ALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  git config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+
+[90m|[39m  fatal: detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  \tAleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  \tALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  \tgit config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m
+[31mx[39m  Change detection failed: git rev-parse --show-toplevel failed: fatal:
+[90m|[39m  detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  Aleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  ALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  git config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+
+[90m|[39m  fatal: detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  \tAleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  \tALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  \tgit config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m
+[31mx[39m  Change detection failed: git rev-parse --show-toplevel failed: fatal:
+[90m|[39m  detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  Aleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  ALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  git config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+
+[90m|[39m  fatal: detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  \tAleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  \tALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  \tgit config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m
+[31mx[39m  Change detection failed: git rev-parse --show-toplevel failed: fatal:
+[90m|[39m  detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  Aleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  ALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  git config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+
+[90m|[39m  fatal: detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  \tAleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  \tALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  \tgit config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m
+[31mx[39m  Change detection failed: git rev-parse --show-toplevel failed: fatal:
+[90m|[39m  detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  Aleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  ALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  git config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+
+[90m|[39m  fatal: detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  \tAleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  \tALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  \tgit config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m
+[31mx[39m  Change detection failed: git rev-parse --show-toplevel failed: fatal:
+[90m|[39m  detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  Aleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  ALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  git config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+
+[90m|[39m  fatal: detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  \tAleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  \tALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  \tgit config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m
+[31mx[39m  Change detection failed: git rev-parse --show-toplevel failed: fatal:
+[90m|[39m  detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  Aleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  ALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  git config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+
+[90m|[39m  fatal: detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  \tAleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  \tALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  \tgit config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m
+[31mx[39m  Change detection failed: git rev-parse --show-toplevel failed: fatal:
+[90m|[39m  detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  Aleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  ALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  git config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+
+[90m|[39m  fatal: detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  \tAleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  \tALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  \tgit config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m
+[31mx[39m  Change detection failed: git rev-parse --show-toplevel failed: fatal:
+[90m|[39m  detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  Aleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  ALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  git config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+
+[90m|[39m  fatal: detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  \tAleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  \tALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  \tgit config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m
+[31mx[39m  Change detection failed: git rev-parse --show-toplevel failed: fatal:
+[90m|[39m  detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  Aleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  ALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  git config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+
+[90m|[39m  fatal: detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  \tAleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  \tALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  \tgit config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m
+[31mx[39m  Change detection failed: git rev-parse --show-toplevel failed: fatal:
+[90m|[39m  detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  Aleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  ALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  git config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+
+[90m|[39m  fatal: detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  \tAleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  \tALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  \tgit config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m
+[31mx[39m  Change detection failed: git rev-parse --show-toplevel failed: fatal:
+[90m|[39m  detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  Aleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  ALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  git config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+
+[90m|[39m  fatal: detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  \tAleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  \tALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  \tgit config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m
+[31mx[39m  Change detection failed: git rev-parse --show-toplevel failed: fatal:
+[90m|[39m  detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  Aleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  ALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  git config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+
+[90m|[39m  fatal: detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  \tAleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  \tALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  \tgit config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m
+[31mx[39m  Change detection failed: git rev-parse --show-toplevel failed: fatal:
+[90m|[39m  detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  Aleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  ALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  git config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+
+[90m|[39m  fatal: detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  \tAleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  \tALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  \tgit config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m
+[31mx[39m  Change detection failed: git rev-parse --show-toplevel failed: fatal:
+[90m|[39m  detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  Aleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  ALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  git config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+
+[90m|[39m  fatal: detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  \tAleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  \tALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  \tgit config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m
+[31mx[39m  Change detection failed: git rev-parse --show-toplevel failed: fatal:
+[90m|[39m  detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  Aleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  ALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  git config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+
+[90m|[39m  fatal: detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  \tAleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  \tALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  \tgit config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m
+[31mx[39m  Change detection failed: git rev-parse --show-toplevel failed: fatal:
+[90m|[39m  detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  Aleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  ALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  git config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+
+[90m|[39m  fatal: detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  \tAleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  \tALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  \tgit config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m
+[31mx[39m  Change detection failed: git rev-parse --show-toplevel failed: fatal:
+[90m|[39m  detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  Aleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  ALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  git config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+
+[90m|[39m  fatal: detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  \tAleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  \tALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  \tgit config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m
+[31mx[39m  Change detection failed: git rev-parse --show-toplevel failed: fatal:
+[90m|[39m  detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  Aleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  ALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  git config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+
+[90m|[39m  fatal: detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  \tAleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  \tALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  \tgit config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m  [43mVite[49m [32mpage reload [39m[2m virtual:/@storybook/builder-vite/storybook-stories.js[22m
+[90m|[39m
+[33m![39m  CSF Parsing error: Expected 'ObjectExpression' but found 'Identifier'
+[90m|[39m  instead in 'Identifier'.
+[90m|[39m
+[31mx[39m  Change detection failed: git rev-parse --show-toplevel failed: fatal:
+[90m|[39m  detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  Aleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  ALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  git config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+
+[90m|[39m  fatal: detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  \tAleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  \tALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  \tgit config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m
+[31mx[39m  Change detection failed: git rev-parse --show-toplevel failed: fatal:
+[90m|[39m  detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  Aleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  ALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  git config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+
+[90m|[39m  fatal: detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  \tAleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  \tALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  \tgit config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m
+[31mx[39m  Change detection failed: git rev-parse --show-toplevel failed: fatal:
+[90m|[39m  detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  Aleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  ALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  git config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+
+[90m|[39m  fatal: detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  \tAleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  \tALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  \tgit config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m
+[31mx[39m  Change detection failed: git rev-parse --show-toplevel failed: fatal:
+[90m|[39m  detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  Aleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  ALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  git config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+[90m|[39m  Command failed with exit code 128: git rev-parse --show-toplevel
+
+[90m|[39m  fatal: detected dubious ownership in repository at
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee'
+[90m|[39m  'C:/Users/belal/Documents/ChatGPT/Wild_Coffee/.git' is owned by:
+[90m|[39m  \tAleks-laptop/CodexSandboxOffline
+[90m|[39m  (S-1-5-21-2051904706-1906155284-3292626136-1005)
+[90m|[39m  but the current user is:
+[90m|[39m  \tALEKS-LAPTOP/belal (S-1-5-21-2051904706-1906155284-3292626136-1002)
+[90m|[39m  To add an exception for this directory, call:
+
+[90m|[39m  \tgit config --global --add safe.directory
+[90m|[39m  C:/Users/belal/Documents/ChatGPT/Wild_Coffee

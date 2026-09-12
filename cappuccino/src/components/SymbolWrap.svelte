@@ -1,0 +1,33 @@
+<script lang="ts">
+	import type { Snippet } from 'svelte';
+
+	import { Container } from 'pixi-svelte';
+	import { getContextBoard } from 'components-shared';
+
+	import { BOARD_SIZES } from '../game/constants';
+
+	type Props = {
+	debug?: boolean;
+	x: number;
+	y: number;
+	scale?: { x: number; y: number };
+	alpha?: number;
+	animating: boolean;
+		children: Snippet;
+	};
+
+	const props: Props = $props();
+	const boardContext = getContextBoard();
+	const show = $derived(
+		(boardContext.animate && props.animating) || (!boardContext.animate && !props.animating),
+	);
+	const top = 0;
+	const bottom = BOARD_SIZES.height;
+	const inFrame = $derived(props.y >= top && props.y <= bottom);
+</script>
+
+{#if props.debug || (show && inFrame)}
+	<Container x={props.x} y={props.y} scale={props.scale} alpha={props.alpha}>
+		{@render props.children()}
+	</Container>
+{/if}
