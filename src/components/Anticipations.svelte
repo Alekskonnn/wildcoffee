@@ -3,11 +3,13 @@
 	import { SECOND } from 'constants-shared/time';
 
 	import { getContext } from '../game/context';
+	import { stateMobileDebug } from '../game/mobileDebug.svelte';
 	import Anticipation from './Anticipation.svelte';
 
 	const context = getContext();
 	const hasAnticipation = $derived(
-		context.stateGame.board.some((reel) => reel.reelState.anticipating),
+		stateMobileDebug.previewAllAnticipations ||
+			context.stateGame.board.some((reel) => reel.reelState.anticipating),
 	);
 </script>
 
@@ -30,8 +32,14 @@
 	/>
 {/if}
 
-{#each context.stateGame.board as reel}
-	{#if reel.reelState.anticipating}
-		<Anticipation {reel} oncomplete={() => (reel.reelState.anticipating = false)} />
-	{/if}
-{/each}
+{#if stateMobileDebug.previewAllAnticipations}
+	{#each context.stateGame.board as reel}
+		<Anticipation {reel} preview oncomplete={() => undefined} />
+	{/each}
+{:else}
+	{#each context.stateGame.board as reel}
+		{#if reel.reelState.anticipating}
+			<Anticipation {reel} oncomplete={() => (reel.reelState.anticipating = false)} />
+		{/if}
+	{/each}
+{/if}

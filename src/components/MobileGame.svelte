@@ -2,6 +2,8 @@
 	import { stateBet, stateBetDerived } from 'state-shared';
 	import { numberToCurrencyString } from 'utils-shared/amount';
 	import { getContext } from '../game/context';
+	import { stateMobileDebug } from '../game/mobileDebug.svelte';
+	import { winLevelMap, type WinLevel } from '../game/winLevelMap';
 
 	const context = getContext();
 
@@ -61,6 +63,21 @@
 
 	const handleSpin = () =>
 		context.eventEmitter.broadcast({ type: reelsAreSpinning ? 'stopButtonClick' : 'bet' });
+	const previewWin = (level: WinLevel) => {
+		stateMobileDebug.previewAllAnticipations = false;
+		const winLevelData = winLevelMap[level];
+		context.eventEmitter.broadcast({ type: 'winShow' });
+		context.eventEmitter.broadcast({
+			type: 'winUpdate',
+			amount: level * 100,
+			winLevelData,
+		});
+	};
+	const closeWinPreview = () => context.eventEmitter.broadcast({ type: 'winHide' });
+	const playBonusSpin = () => {
+		stateBet.activeBetModeKey = 'BONUS';
+		context.eventEmitter.broadcast({ type: 'bet' });
+	};
 
 </script>
 
@@ -122,6 +139,41 @@
 			<img src="/assets/mobile/buttons/info.png" alt="" />
 		</button>
 	</section>
+	<button
+		class="debug-toggle"
+		type="button"
+		onclick={() => (stateMobileDebug.open = !stateMobileDebug.open)}
+	>
+		DEBUG
+	</button>
+	{#if stateMobileDebug.open}
+		<aside class="debug-panel" aria-label="Mobile visual debug controls">
+			<div class="debug-panel-heading">
+				<strong>Mobile debug</strong>
+				<button type="button" onclick={() => (stateMobileDebug.open = false)}>×</button>
+			</div>
+			<div class="debug-actions">
+				<button type="button" onclick={() => (stateMobileDebug.previewAllAnticipations = !stateMobileDebug.previewAllAnticipations)}>
+					{stateMobileDebug.previewAllAnticipations ? 'Hide anticipation' : 'All anticipation lines'}
+				</button>
+				<button type="button" onclick={closeWinPreview}>Hide win</button>
+			</div>
+			<label>Anticipation size X <input type="range" min="0.5" max="1.5" step="0.01" bind:value={stateMobileDebug.anticipationScaleX} /></label>
+			<label>Anticipation size Y <input type="range" min="0.5" max="1.5" step="0.01" bind:value={stateMobileDebug.anticipationScaleY} /></label>
+			<label>Anticipation X <input type="range" min="-0.3" max="0.3" step="0.01" bind:value={stateMobileDebug.anticipationOffsetX} /></label>
+			<label>Anticipation Y <input type="range" min="-0.3" max="0.3" step="0.01" bind:value={stateMobileDebug.anticipationOffsetY} /></label>
+			<label>Anticipation opacity <input type="range" min="0" max="1" step="0.01" bind:value={stateMobileDebug.anticipationOpacity} /></label>
+			<div class="debug-actions">
+				<button type="button" onclick={handleSpin}>Base spin</button>
+				<button type="button" onclick={playBonusSpin}>Bonus spin</button>
+			</div>
+			<div class="debug-wins">
+				{#each [6, 7, 8, 9, 10] as level}
+					<button type="button" onclick={() => previewWin(level as WinLevel)}>{winLevelMap[level as WinLevel].text}</button>
+				{/each}
+			</div>
+		</aside>
+	{/if}
 </main>
 
 <style>
@@ -149,12 +201,15 @@
 		top: 50%;
 		left: 50%;
 		z-index: 10;
-		width: min(100vw, 540px);
+		/* This exactly matches `background-size: contain` on the portrait artwork.
+		   On a short viewport, the height drives the scale; on a tall viewport, width does. */
+		width: min(100vw, calc(100dvh * 0.5628), 540px);
 		margin: 0;
 		transform: translate(-50%, -50%);
 		pointer-events: none;
 	}
-	.controls-only .game-controls { pointer-events: auto; }
+	.controls-only .game-controls { pointer-events: none; }
+	.controls-only .game-button { pointer-events: auto; }
 
 	.background-art { display: block; width: 100%; height: 100%; }
 	.button-sockets { position: absolute; z-index: 1; bottom: 0; left: 50%; width: calc(var(--socket-scale) * 100%); transform: translateX(-50%); pointer-events: none; }
@@ -184,4 +239,13 @@
 	.spin { --button-size: var(--spin-size); --button-x: var(--spin-x); --button-y: var(--spin-y); }
 	.auto { --button-size: var(--auto-size); --button-x: var(--auto-x); --button-y: var(--auto-y); }
 	.info { --button-size: var(--info-size); --button-x: var(--info-x); --button-y: var(--info-y); }
+	.debug-toggle { position: absolute; z-index: 4; top: 2%; right: 2%; pointer-events: auto; border: 1px solid #e5a43c; border-radius: .7cqw; background: #210c05e6; color: #ffe0a0; font: 700 2.4cqw / 1 system-ui, sans-serif; padding: .8cqw 1.2cqw; }
+	.debug-panel { position: absolute; z-index: 5; top: 7%; left: 3%; width: 58%; max-height: 48%; overflow: auto; box-sizing: border-box; pointer-events: auto; border: 1px solid #d8902d; border-radius: 1.4cqw; background: #160906f2; color: #ffe8ba; padding: 2cqw; font: 2.3cqw / 1.25 system-ui, sans-serif; box-shadow: 0 .6cqw 2cqw #000; }
+	.debug-panel-heading { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.4cqw; font-size: 2.8cqw; }
+	.debug-panel button { border: 1px solid #a75e1a; border-radius: .8cqw; background: #47200d; color: #fff0c8; padding: .9cqw; font: inherit; }
+	.debug-panel-heading button { font-size: 3.4cqw; line-height: .8; }
+	.debug-panel label { display: grid; grid-template-columns: 1fr 1fr; align-items: center; gap: 1cqw; margin-top: 1cqw; }
+	.debug-panel input { width: 100%; accent-color: #e6a02e; }
+	.debug-actions, .debug-wins { display: flex; flex-wrap: wrap; gap: 1cqw; margin: 1.2cqw 0; }
+	.debug-wins button { flex: 1 1 28%; }
 </style>

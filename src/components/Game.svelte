@@ -64,7 +64,7 @@
 	{/if}
 
 	{#if context.stateLayout.showLoadingScreen}
-		<LoadingScreen onloaded={() => (context.stateLayout.showLoadingScreen = false)} />
+		<LoadingScreen mobile={props.mobile} onloaded={() => (context.stateLayout.showLoadingScreen = false)} />
 	{:else}
 		<ResumeBet />
 		<!--
@@ -117,7 +117,7 @@
 					{/snippet}
 					{#snippet logo()}
 						<Sprite
-							key="wildcoffeeLogo"
+							key="cappuccinoLogo"
 							anchor={{ x: 1, y: 0 }}
 							width={REM * 3.4}
 							height={REM * 3.4}

@@ -232,9 +232,9 @@ export default {
 			.href,
 		preload: true,
 	},
-	wildcoffeeLogo: {
+	cappuccinoLogo: {
 		type: 'sprite',
-		src: new URL('../../assets/logo/wildcoffee-logo.png', import.meta.url).href,
+		src: new URL('../../assets/logo/cappuccino-logo.png', import.meta.url).href,
 		preload: true,
 	},
 	reelhouse: {

@@ -11,12 +11,12 @@
 
 	type Props = {
 		onloaded: () => void;
+		mobile?: boolean;
 	};
 
 	const props: Props = $props();
 	const context = getContext();
 	const LOADING_VIDEO_URL = '/assets/spines/foregroundAnimation/loading-animation.webm';
-	// Change this one value to resize the startup animation while preserving its proportions.
 	const LOADING_VIDEO_WIDTH = 1100;
 
 	let loadingType = $state<'start' | 'transition'>('start');
@@ -29,8 +29,9 @@
 	);
 
 	onMount(() => {
-		let disposed = false;
+		if (props.mobile) return;
 
+		let disposed = false;
 		void PIXI.Assets.load<PIXI.Texture>({
 			src: LOADING_VIDEO_URL,
 			data: { autoPlay: true, loop: true, muted: true, preload: true, updateFPS: 60 },
@@ -54,14 +55,21 @@
 	});
 </script>
 
-<!-- logo and loading progress -->
+<!-- HTML animation avoids mobile WebM alpha-decoding issues. -->
+{#if props.mobile && loadingType === 'start'}
+	<div class="loading-logo" aria-hidden="true">
+		<img src="/assets/spines/foregroundAnimation/loading-logo.png" alt="" />
+	</div>
+{/if}
+
+<!-- loading progress -->
 <FadeContainer show={loadingType === 'start'}>
 	<MainContainer>
 		<Container
 			x={context.stateLayoutDerived.mainLayout().width * 0.5}
-			y={context.stateLayoutDerived.mainLayout().height * 0.5}
+			 y={context.stateLayoutDerived.mainLayout().height * 0.5}
 		>
-			{#if loadingTexture !== PIXI.Texture.EMPTY}
+			{#if !props.mobile && loadingTexture !== PIXI.Texture.EMPTY}
 				<BaseSprite
 					texture={loadingTexture}
 					anchor={0.5}
@@ -95,3 +103,32 @@
 <FadeContainer show={loadingType === 'transition'}>
 	<TransitionAnimation oncomplete={props.onloaded} />
 </FadeContainer>
+
+<style>
+	.loading-logo {
+		position: fixed;
+		inset: 0;
+		z-index: 4;
+		display: grid;
+		place-items: center;
+		pointer-events: none;
+	}
+
+	.loading-logo img {
+		width: min(76vw, 460px);
+		height: auto;
+		mix-blend-mode: screen;
+		transform-origin: center;
+		animation: loading-logo-pulse 2.4s ease-in-out infinite;
+	}
+
+	@keyframes loading-logo-pulse {
+		0%,
+		100% {
+			transform: scale(0.96);
+		}
+		50% {
+			transform: scale(1.04);
+		}
+	}
+</style>

@@ -128,7 +128,8 @@ export const BOARD_SIZES = {
 };
 
 export const BACKGROUND_RATIO = 2039 / 1000;
-export const PORTRAIT_BACKGROUND_RATIO = 1242 / 2208;
+// Matches static/assets/mobile/wild-coffee-background.png (941 × 1672).
+export const PORTRAIT_BACKGROUND_RATIO = 941 / 1672;
 export const DESKTOP_BACKGROUND_RATIO = 1672 / 941;
 const PORTRAIT_RATIO = 800 / 1422;
 const LANDSCAPE_RATIO = 1600 / 900;
@@ -153,6 +154,24 @@ export const PORTRAIT_MAIN_SIZES = {
 export const REEL_BOARD_PLACEMENT = {
 	desktop: { centerX: 0.5, centerY: 0.5, width: 0.5 },
 	portrait: { centerX: 0.5, centerY: 0.51, width: 0.88 },
+} as const;
+
+// Shared placement for every anticipation overlay on the portrait/mobile scene.
+// Change these values to move or resize all five anticipation lines together.
+export const MOBILE_ANTICIPATION_LAYOUT = {
+	centerX: 0.5,
+	centerY: 0.5,
+	width: 1.67	,
+	height: 0.49,
+} as const;
+
+// Startup animation placement for the mobile artwork. These values are fractions
+// of the visible game canvas, so the animation stays attached while the phone
+// viewport changes size. Adjust width to resize it, and centerX / centerY to move it.
+export const MOBILE_LOADING_VIDEO = {
+	centerX: 0.5,
+	centerY: 0.5,
+	width: 0.76,
 } as const;
 
 // Video placement on the coffee artwork. Values are fractions of the artwork size.

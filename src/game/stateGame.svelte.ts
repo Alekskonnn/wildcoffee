@@ -24,6 +24,7 @@ import {
 	SCATTER_LAND_SOUND_MAP,
 	REEL_BOARD_PLACEMENT,
 	DESKTOP_BACKGROUND_RATIO,
+	PORTRAIT_BACKGROUND_RATIO,
 } from './constants';
 
 const onSymbolLand = ({ rawSymbol }: { rawSymbol: RawSymbol }) => {
@@ -89,8 +90,9 @@ export const stateGame = $state({
 
 const boardLayout = () => {
 	const mainLayout = stateLayoutDerived.mainLayout();
+	const isPortrait = stateLayoutDerived.layoutType() === 'portrait';
 	const placement =
-		stateLayoutDerived.layoutType() === 'portrait'
+		isPortrait
 			? REEL_BOARD_PLACEMENT.portrait
 			: REEL_BOARD_PLACEMENT.desktop;
 
@@ -98,10 +100,11 @@ const boardLayout = () => {
 	// the canvas itself. This keeps the reels locked to the artwork on every resize.
 	const canvasSizes = stateLayoutDerived.canvasSizes();
 	const canvasRatio = canvasSizes.width / canvasSizes.height;
+	const backgroundRatio = isPortrait ? PORTRAIT_BACKGROUND_RATIO : DESKTOP_BACKGROUND_RATIO;
 	const backgroundSizes =
-		canvasRatio > DESKTOP_BACKGROUND_RATIO
-			? { width: canvasSizes.height * DESKTOP_BACKGROUND_RATIO, height: canvasSizes.height }
-			: { width: canvasSizes.width, height: canvasSizes.width / DESKTOP_BACKGROUND_RATIO };
+		canvasRatio > backgroundRatio
+			? { width: canvasSizes.height * backgroundRatio, height: canvasSizes.height }
+			: { width: canvasSizes.width, height: canvasSizes.width / backgroundRatio };
 	const baseRenderWidth = (backgroundSizes.width * placement.width) / mainLayout.scale;
 	const scale = baseRenderWidth / BASE_BOARD_SIZES.width;
 	const renderWidth = BOARD_SIZES.width * scale;
