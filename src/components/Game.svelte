@@ -117,7 +117,7 @@
 					{/snippet}
 					{#snippet logo()}
 						<Sprite
-							key="cappuccinoLogo"
+							key="wildcoffeeLogo"
 							anchor={{ x: 1, y: 0 }}
 							width={REM * 3.4}
 							height={REM * 3.4}

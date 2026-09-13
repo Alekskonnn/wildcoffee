@@ -6,7 +6,7 @@ const appDir = dirname(fileURLToPath(import.meta.url));
 const rootDir = resolve(appDir, '../../../..');
 const sourcePath = resolve(
 	rootDir,
-	'math-sdk/games/0_0_cappuccino/library/configs/config_fe_0_0_cappuccino.json',
+	'math-sdk/games/0_0_wildcoffee/library/configs/config_fe_0_0_wildcoffee.json',
 );
 const targetPath = resolve(appDir, '../src/game/config.ts');
 
