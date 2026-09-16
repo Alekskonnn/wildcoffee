@@ -2,12 +2,9 @@
 	import { stateBet, stateBetDerived, stateConfig, stateModal } from 'state-shared';
 	import { numberToCurrencyString, bookEventAmountToCurrencyString } from 'utils-shared/amount';
 	import { getContext } from '../game/context';
-<<<<<<< HEAD
 	import { stateMobileDebug } from '../game/mobileDebug.svelte';
 	import { winLevelMap, type WinLevel } from '../game/winLevelMap';
-=======
 	import { goHome } from '../game/goHome';
->>>>>>> 210ae35 (Add translation)
 
 	const context = getContext();
 
