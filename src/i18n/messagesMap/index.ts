@@ -3,10 +3,12 @@ import { messagesMap as messagesMapUiPixi } from 'components-ui-pixi';
 import { messagesMap as messagesMapUiHtml } from 'components-ui-html';
 
 import en from './en';
+import ru from './ru';
 import zh from './zh';
 
 const messagesMapGame = {
 	en,
+	ru,
 	zh,
 };
 

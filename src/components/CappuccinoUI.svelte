@@ -8,10 +8,11 @@
 	import { MainContainer } from 'components-layout';
 	import { Container, Rectangle, Sprite, Text, anchorToPivot } from 'pixi-svelte';
 	import { stateBet, stateBetDerived, stateConfig, stateModal, stateUi } from 'state-shared';
-	import { numberToCurrencyString } from 'utils-shared/amount';
+	import { numberToCurrencyString, bookEventAmountToCurrencyString } from 'utils-shared/amount';
 
 	import { COFFEE_CONTROL_LAYOUT, DESKTOP_BACKGROUND_RATIO } from '../game/constants';
 	import { getContext } from '../game/context';
+	import { goHome } from '../game/goHome';
 	import CappuccinoImageButton from './CappuccinoImageButton.svelte';
 
 	type Props = {
@@ -81,7 +82,7 @@
 			x: offsetX + backgroundWidth * 0.5,
 			rowY: offsetY + backgroundHeight - (ROW_HEIGHT + 12) * scale,
 			menuX: offsetX + 42 * scale,
-			menuY: offsetY + backgroundHeight - (ROW_HEIGHT + 352) * scale,
+			menuY: offsetY + backgroundHeight - (ROW_HEIGHT + 444) * scale,
 			scale,
 		};
 	});
@@ -284,7 +285,7 @@
 			)}
 
 			{@render amountText(
-				numberToCurrencyString(stateBet.winBookEventAmount),
+				bookEventAmountToCurrencyString(stateBet.winBookEventAmount),
 				'coffeeWinHolder',
 				COFFEE_CONTROL_LAYOUT.win,
 			)}
@@ -366,7 +367,7 @@
 			scale={controlsLayout.scale}
 		>
 				<CappuccinoImageButton
-					label="PAYTABLE"
+					label={context.i18nDerived.payTable()}
 					sizes={{ width: WIDE_BUTTON_WIDTH, height: BUTTON_HEIGHT }}
 					onpress={() => {
 						emitGeneralPress();
@@ -375,9 +376,7 @@
 				/>
 				<Container y={92}>
 					<CappuccinoImageButton
-						label=""
-						iconKey="infoButton"
-						iconSizes={{ width: WIDE_BUTTON_WIDTH, height: BUTTON_HEIGHT }}
+						label={context.i18nDerived.gameRules()}
 						sizes={{ width: WIDE_BUTTON_WIDTH, height: BUTTON_HEIGHT }}
 						onpress={() => {
 							emitGeneralPress();
@@ -387,7 +386,7 @@
 				</Container>
 				<Container y={184}>
 					<CappuccinoImageButton
-						label="SETTINGS"
+						label={context.i18nDerived.settings()}
 						sizes={{ width: WIDE_BUTTON_WIDTH, height: BUTTON_HEIGHT }}
 						onpress={() => {
 							emitGeneralPress();
@@ -397,7 +396,17 @@
 				</Container>
 				<Container y={276}>
 					<CappuccinoImageButton
-						label="CLOSE"
+						label={context.i18nDerived.home()}
+						sizes={{ width: WIDE_BUTTON_WIDTH, height: BUTTON_HEIGHT }}
+						onpress={() => {
+							emitGeneralPress();
+							goHome();
+						}}
+					/>
+				</Container>
+				<Container y={368}>
+					<CappuccinoImageButton
+						label={context.i18nDerived.close()}
 						sizes={{ width: WIDE_BUTTON_WIDTH, height: BUTTON_HEIGHT }}
 						onpress={() => {
 							emitGeneralPress();

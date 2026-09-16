@@ -27,7 +27,6 @@
 	import FreeSpinCounter from './FreeSpinCounter.svelte';
 	import FreeSpinOutro from './FreeSpinOutro.svelte';
 	import Transition from './Transition.svelte';
-	import I18nTest from './I18nTest.svelte';
 	import CappuccinoUI from './CappuccinoUI.svelte';
 	import WinningSymbolsOverlay from './WinningSymbolsOverlay.svelte';
 
@@ -142,10 +141,6 @@
 				<WinningSymbolsOverlay />
 			</Container>
 		</MainContainer>
-
-		{#if !props.mobile}
-			<I18nTest />
-		{/if}
 	{/if}
 </App>
 

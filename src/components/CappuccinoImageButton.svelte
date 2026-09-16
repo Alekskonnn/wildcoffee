@@ -26,8 +26,10 @@
 	}: Props = $props();
 </script>
 
-	<Button {...buttonProps} {sizes} {onpress} {disabled} softHover>
-	{#snippet children({ center, hovered, pressed, hoverScale, hoverLift })}
+	<Button {...buttonProps} {sizes} {onpress} {disabled}>
+	{#snippet children({ center, hovered, pressed })}
+		{@const hoverScale = pressed ? 0.97 : hovered ? 1.05 : 1}
+		{@const hoverLift = hovered && !pressed ? -3 : 0}
 		<Container x={center.x} y={center.y + hoverLift} scale={hoverScale}>
 			{#if iconKey}
 				<Sprite

@@ -1,7 +1,7 @@
 import _ from 'lodash';
 
 import { recordBookEvent, checkIsMultipleRevealEvents, type BookEventHandlerMap } from 'utils-book';
-import { stateBet, stateUi } from 'state-shared';
+import { stateBet, stateUi, stateUrlDerived } from 'state-shared';
 import { sequence } from 'utils-shared/sequence';
 
 import { eventEmitter } from './eventEmitter';
@@ -64,7 +64,8 @@ export const bookEventHandlerMap: BookEventHandlerMap<BookEvent, BookEventContex
 		const isBonusGame = checkIsMultipleRevealEvents({ bookEvents });
 		if (isBonusGame) {
 			eventEmitter.broadcast({ type: 'stopButtonEnable' });
-			recordBookEvent({ bookEvent });
+			// No RGS in local demo — skip resume tracking to avoid failed fetches.
+			if (stateUrlDerived.sessionID()) recordBookEvent({ bookEvent });
 		}
 
 		stateGame.gameType = bookEvent.gameType;

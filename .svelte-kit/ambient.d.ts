@@ -26,6 +26,7 @@
  * ```
  */
 declare module '$env/static/private' {
+<<<<<<< HEAD
 	export const ALLUSERSPROFILE: string;
 	export const APPDATA: string;
 	export const CODEX_APP_TOOLS_PIPE_PATH: string;
@@ -66,6 +67,36 @@ declare module '$env/static/private' {
 	export const NDKROOT: string;
 	export const NDK_ROOT: string;
 	export const NODE: string;
+=======
+	export const NODE: string;
+	export const INIT_CWD: string;
+	export const SHELL: string;
+	export const npm_config_registry: string;
+	export const USER: string;
+	export const PNPM_SCRIPT_SRC_DIR: string;
+	export const __CF_USER_TEXT_ENCODING: string;
+	export const npm_execpath: string;
+	export const npm_config_frozen_lockfile: string;
+	export const npm_config_verify_deps_before_run: string;
+	export const PATH: string;
+	export const npm_config_auto_install_peers: string;
+	export const PWD: string;
+	export const npm_command: string;
+	export const npm_lifecycle_event: string;
+	export const LANG: string;
+	export const npm_package_name: string;
+	export const NODE_PATH: string;
+	export const npm_config_global: string;
+	export const TURBO_HASH: string;
+	export const npm_config_node_gyp: string;
+	export const npm_package_version: string;
+	export const HOME: string;
+	export const SHLVL: string;
+	export const npm_lifecycle_script: string;
+	export const npm_config_user_agent: string;
+	export const npm_config__all_acme_co_registry: string;
+	export const npm_node_execpath: string;
+>>>>>>> 210ae35 (Add translation)
 	export const NODE_ENV: string;
 	export const NODE_PATH: string;
 	export const NODE_REPL_TRUSTED_BROWSER_CLIENT_SHA256S: string;
@@ -148,6 +179,7 @@ declare module '$env/static/public' {
  */
 declare module '$env/dynamic/private' {
 	export const env: {
+<<<<<<< HEAD
 		ALLUSERSPROFILE: string;
 		APPDATA: string;
 		CODEX_APP_TOOLS_PIPE_PATH: string;
@@ -188,6 +220,36 @@ declare module '$env/dynamic/private' {
 		NDKROOT: string;
 		NDK_ROOT: string;
 		NODE: string;
+=======
+		NODE: string;
+		INIT_CWD: string;
+		SHELL: string;
+		npm_config_registry: string;
+		USER: string;
+		PNPM_SCRIPT_SRC_DIR: string;
+		__CF_USER_TEXT_ENCODING: string;
+		npm_execpath: string;
+		npm_config_frozen_lockfile: string;
+		npm_config_verify_deps_before_run: string;
+		PATH: string;
+		npm_config_auto_install_peers: string;
+		PWD: string;
+		npm_command: string;
+		npm_lifecycle_event: string;
+		LANG: string;
+		npm_package_name: string;
+		NODE_PATH: string;
+		npm_config_global: string;
+		TURBO_HASH: string;
+		npm_config_node_gyp: string;
+		npm_package_version: string;
+		HOME: string;
+		SHLVL: string;
+		npm_lifecycle_script: string;
+		npm_config_user_agent: string;
+		npm_config__all_acme_co_registry: string;
+		npm_node_execpath: string;
+>>>>>>> 210ae35 (Add translation)
 		NODE_ENV: string;
 		NODE_PATH: string;
 		NODE_REPL_TRUSTED_BROWSER_CLIENT_SHA256S: string;

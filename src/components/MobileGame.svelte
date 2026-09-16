@@ -1,9 +1,13 @@
 <script lang="ts">
-	import { stateBet, stateBetDerived } from 'state-shared';
-	import { numberToCurrencyString } from 'utils-shared/amount';
+	import { stateBet, stateBetDerived, stateConfig, stateModal } from 'state-shared';
+	import { numberToCurrencyString, bookEventAmountToCurrencyString } from 'utils-shared/amount';
 	import { getContext } from '../game/context';
+<<<<<<< HEAD
 	import { stateMobileDebug } from '../game/mobileDebug.svelte';
 	import { winLevelMap, type WinLevel } from '../game/winLevelMap';
+=======
+	import { goHome } from '../game/goHome';
+>>>>>>> 210ae35 (Add translation)
 
 	const context = getContext();
 
@@ -24,9 +28,9 @@
 		blackboards: {
 			top: 62,
 			height: 22,
-			balance: { x: 35.5, y: 20, width: 29, scale: 1.3, textX: 50, textY: 66, textSize: 5.3 },
-			bet: { x: 3, y: 20, width: 29, scale: 1.3, textX: 50, textY: 66, textSize: 5.3 },
-			win: { x: 68, y: 20, width: 29, scale: 1.3, textX: 50, textY: 66, textSize: 5.3 },
+			balance: { x: 35.5, y: 20, width: 29, scale: 1.3, textX: 50, textY: 56, textSize: 5.3 },
+			bet: { x: 3, y: 20, width: 29, scale: 1.3, textX: 50, textY: 56, textSize: 5.3 },
+			win: { x: 68, y: 20, width: 29, scale: 1.3, textX: 50, textY: 56, textSize: 5.3 },
 		},
 		reels: {
 			x: 50,
@@ -79,9 +83,69 @@
 		context.eventEmitter.broadcast({ type: 'bet' });
 	};
 
+	const emitGeneralPress = () => context.eventEmitter.broadcast({ type: 'soundPressGeneral' });
+
+	const betOptions = $derived([...stateConfig.betAmountOptions].sort((a, b) => a - b));
+	const betMinusDisabled = $derived(
+		betOptions.length === 0 || stateBet.betAmount <= betOptions[0],
+	);
+	const betPlusDisabled = $derived(
+		betOptions.length === 0 || stateBet.betAmount >= betOptions[betOptions.length - 1],
+	);
+
+	const handleBetMinus = () => {
+		emitGeneralPress();
+		const nextSmaller = [...betOptions].reverse().find((option) => option < stateBet.betAmount);
+		stateBetDerived.setBetAmount(nextSmaller ?? betOptions[0]);
+	};
+
+	const handleBetPlus = () => {
+		emitGeneralPress();
+		const nextBigger = betOptions.find((option) => option > stateBet.betAmount);
+		stateBetDerived.setBetAmount(nextBigger ?? betOptions[betOptions.length - 1]);
+	};
+
+	const handleAuto = () => {
+		emitGeneralPress();
+		if (stateBetDerived.hasAutoBetCounter()) {
+			stateBet.autoSpinsCounter = 0;
+			return;
+		}
+		stateModal.modal = { name: 'autoSpin' };
+	};
+
+	let menuOpen = $state(false);
+
+	const handleInfo = () => {
+		emitGeneralPress();
+		menuOpen = !menuOpen;
+	};
+
+	const openModal = (name: 'payTable' | 'gameRules' | 'settings') => {
+		emitGeneralPress();
+		menuOpen = false;
+		stateModal.modal = { name };
+	};
+
+	// While the Pixi loading screen is up, the HTML controls must not swallow
+	// taps — "press anywhere to continue" is handled inside the canvas.
+	const loading = $derived(context.stateLayout.showLoadingScreen);
+
+	// Mirror the desktop UI: hide the controls during canvas-driven presentations
+	// (free spin intro/outro, big wins). They need "press anywhere" taps to reach
+	// the canvas; visible controls would swallow them and hang the book playback.
+	let uiHidden = $state(false);
+	context.eventEmitter.subscribeOnMount({
+		uiShow: () => {
+			uiHidden = false;
+		},
+		uiHide: () => {
+			uiHidden = true;
+		},
+	});
 </script>
 
-<main class:controls-only={props.controlsOnly} class="coffee-scene" aria-label="Wild Coffee mobile game" style={sceneStyle}>
+<main class:controls-only={props.controlsOnly} class:loading={loading || uiHidden} class="coffee-scene" aria-label="Wild Coffee mobile game" style={sceneStyle}>
 	{#if !props.controlsOnly}
 		<img class="background-art" src="/assets/mobile/wild-coffee-background.png" alt="" />
 	{/if}
@@ -118,26 +182,34 @@
 		</div>
 		<div class="scoreboard" style={boardStyle(MOBILE_LAYOUT.blackboards.win)}>
 			<img src="/assets/mobile/win-holder.png" alt="Win" />
-			<span>{numberToCurrencyString(stateBet.winBookEventAmount)}</span>
+			<span>{bookEventAmountToCurrencyString(stateBet.winBookEventAmount)}</span>
 		</div>
 	</section>
 	<section class="game-controls" aria-label="Game controls">
-		<button class="game-button bet-minus" type="button" aria-label="Decrease bet">
+		<button class="game-button bet-minus" type="button" aria-label="Decrease bet" disabled={betMinusDisabled} onclick={handleBetMinus}>
 			<img src="/assets/mobile/buttons/bet-minus.png" alt="" />
 		</button>
-		<button class="game-button bet-plus" type="button" aria-label="Increase bet">
+		<button class="game-button bet-plus" type="button" aria-label="Increase bet" disabled={betPlusDisabled} onclick={handleBetPlus}>
 			<img src="/assets/mobile/buttons/bet-plus.png" alt="" />
 		</button>
 		<button class="game-button spin" type="button" aria-label="Spin" onclick={handleSpin}>
 			<img src="/assets/mobile/buttons/spin.png" alt="" />
-			<span>SPIN</span>
+			<span>{context.i18nDerived.spin()}</span>
 		</button>
-		<button class="game-button auto" type="button" aria-label="Auto spin">
+		<button class="game-button auto" type="button" aria-label="Auto spin" class:menu-active={stateBetDerived.hasAutoBetCounter()} onclick={handleAuto}>
 			<img src="/assets/mobile/buttons/auto.png" alt="" />
 		</button>
-		<button class="game-button info" type="button" aria-label="Game information">
+		<button class="game-button info" type="button" aria-label="Game menu" class:menu-active={menuOpen} onclick={handleInfo}>
 			<img src="/assets/mobile/buttons/info.png" alt="" />
 		</button>
+		{#if menuOpen}
+			<nav class="mobile-menu" aria-label="Game menu">
+				<button type="button" onclick={() => openModal('payTable')}>{context.i18nDerived.payTable()}</button>
+				<button type="button" onclick={() => openModal('gameRules')}>{context.i18nDerived.gameRules()}</button>
+				<button type="button" onclick={() => openModal('settings')}>{context.i18nDerived.settings()}</button>
+				<button type="button" onclick={() => { emitGeneralPress(); goHome(); }}>{context.i18nDerived.home()}</button>
+			</nav>
+		{/if}
 	</section>
 	<button
 		class="debug-toggle"
@@ -186,7 +258,7 @@
 	:global(body) {
 		min-height: 100dvh;
 		margin: 0;
-		background: #100704 url('/assets/mobile/wild-coffee-background.png') center / contain no-repeat fixed;
+		background: #100704 url('/assets/mobile/wild-coffee-background.png') center / cover no-repeat fixed;
 	}
 
 	.coffee-scene {
@@ -210,6 +282,10 @@
 	}
 	.controls-only .game-controls { pointer-events: none; }
 	.controls-only .game-button { pointer-events: auto; }
+
+	.coffee-scene { transition: opacity 300ms ease; }
+	.coffee-scene.loading { opacity: 0; pointer-events: none; }
+	.coffee-scene.loading .game-controls { pointer-events: none; }
 
 	.background-art { display: block; width: 100%; height: 100%; }
 	.button-sockets { position: absolute; z-index: 1; bottom: 0; left: 50%; width: calc(var(--socket-scale) * 100%); transform: translateX(-50%); pointer-events: none; }
@@ -239,6 +315,7 @@
 	.spin { --button-size: var(--spin-size); --button-x: var(--spin-x); --button-y: var(--spin-y); }
 	.auto { --button-size: var(--auto-size); --button-x: var(--auto-x); --button-y: var(--auto-y); }
 	.info { --button-size: var(--info-size); --button-x: var(--info-x); --button-y: var(--info-y); }
+<<<<<<< HEAD
 	.debug-toggle { position: absolute; z-index: 4; top: 2%; right: 2%; pointer-events: auto; border: 1px solid #e5a43c; border-radius: .7cqw; background: #210c05e6; color: #ffe0a0; font: 700 2.4cqw / 1 system-ui, sans-serif; padding: .8cqw 1.2cqw; }
 	.debug-panel { position: absolute; z-index: 5; top: 7%; left: 3%; width: 58%; max-height: 48%; overflow: auto; box-sizing: border-box; pointer-events: auto; border: 1px solid #d8902d; border-radius: 1.4cqw; background: #160906f2; color: #ffe8ba; padding: 2cqw; font: 2.3cqw / 1.25 system-ui, sans-serif; box-shadow: 0 .6cqw 2cqw #000; }
 	.debug-panel-heading { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.4cqw; font-size: 2.8cqw; }
@@ -248,4 +325,11 @@
 	.debug-panel input { width: 100%; accent-color: #e6a02e; }
 	.debug-actions, .debug-wins { display: flex; flex-wrap: wrap; gap: 1cqw; margin: 1.2cqw 0; }
 	.debug-wins button { flex: 1 1 28%; }
+=======
+	.game-button:disabled { filter: grayscale(.7) brightness(.6); }
+	.game-button.menu-active { filter: brightness(1.25) drop-shadow(0 0 6px #ffb45e); }
+	.mobile-menu { position: absolute; right: 4%; bottom: 19%; display: flex; flex-direction: column; gap: 2cqw; padding: 3cqw; border: 1px solid #8c5a34; border-radius: 3cqw; background: rgba(24, 10, 4, .94); box-shadow: 0 4px 18px rgba(0, 0, 0, .6); }
+	.mobile-menu button { padding: 2.4cqw 5cqw; border: 1px solid #6d4326; border-radius: 2cqw; background: #2e1509; color: #ffe9c2; font-family: 'Chalk Board', system-ui, sans-serif; font-size: 4.2cqw; letter-spacing: .05em; text-align: center; }
+	.mobile-menu button:active { background: #4a2410; }
+>>>>>>> 210ae35 (Add translation)
 </style>
